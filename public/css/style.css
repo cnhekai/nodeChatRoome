@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+}
+a {
+  color: #00b7ff
+}
+#content {
+  width: 800px;
+  margin: auto
+}
+#room {
+  background: #dddddd;
+  margin-bottom: 1em;
+}
+#messages {
+  width: 690px;
+  height: 300px;
+  overflow: auto;
+  background: #eeeeee;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+#room-list {
+  float:  right;
+  width: 100px;
+  height: 300px;
+  overflow: auto;
+}
+
+#room-list div {
+  border-bottom: 1px solid #eeeeee
+}
+
+#room-list div:hover {
+  background-color: #dddddd;
+}
+
+#send-message {
+  width: 700px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+#help {
+  font-size: 10px;
+}
